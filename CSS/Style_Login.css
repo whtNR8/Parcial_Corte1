@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../Img/grid-ge60b4c5a6_1920.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+}
+.Box{
+    width: 320px;
+    height: 280px;
+    background: rgba(0, 0, 0, 0.871);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 70px 30px;
+}
+.Box .avatar{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+position: absolute;
+top: -50px;
+left: calc(50% - 50px);
+}
+.Box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.Box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+.Box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Box input[type="text"],
+.Box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.Box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #00fecb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.Box input[type="submit"]:hover {
+    color: #fff;
+    box-shadow: 0 6px 16px #00fecb;
+    transition: all 0.2s ease;
+}
+/*
+.Box a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: #b00000;
+}
+*/
